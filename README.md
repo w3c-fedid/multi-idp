@@ -71,7 +71,7 @@ Because the RP needs to send all IDP information in a single JavaScript call, it
 Each IDP would provide the `configURL` and the processing logic for the `token`.
 
 We have also received feedback from other browser vendors that supporting multiple IdPs by combining multiple get() calls would be more practical.
-This is because IdPs can call FedCM on their SDK (e.g. [Facebook SDK]([url](https://developers.facebook.com/docs/facebook-login/web/)), [Google SDK]([url](https://developers.google.com/identity/gsi/web/guides/display-google-one-tap))) so that relying parties (RPs) which already embed these IdPs’ SDKs do not necessarily need to make any changes.
+This is because IdPs can call FedCM on their SDK (e.g. [Facebook SDK](https://developers.facebook.com/docs/facebook-login/web/), [Google SDK](https://developers.google.com/identity/gsi/web/guides/display-google-one-tap)) so that relying parties (RPs) which already embed these IdPs’ SDKs do not necessarily need to make any changes.
 We have been brainstorming some ideas on how to allow multi-get FedCM dialogs.
 That said, we have also received feedback that even a single-get multi-idp solution works for some use-cases.
 In particular, for IDPs that are related or owned by the same entity, the single array solution works best since it is easy to combine the information in this scenario.
