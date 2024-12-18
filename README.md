@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/1604074c-b1db-41d1-a1e3-081589d3f53c
 
 # Proposal Stage: 
 
-This Proposal is at [Stage 1](https://github.com/w3c-fedid/Administration/blob/main/proposals-CG-WG.md#stage-1): Incubation
+This Proposal is at [Stage 2](https://github.com/w3c-fedid/Administration/blob/main/proposals-CG-WG.md#stage-2-formalization): Formalization
 
 # Champions
 
